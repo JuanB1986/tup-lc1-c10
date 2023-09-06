@@ -10,7 +10,7 @@ void main () {
     for (i=1;i<4;++i)
     {
         printf ("Ingrese Nro %d \n",i);
-        scanf("%d", &vector[i]);
+        scanf("%d", &vector[i-1]);
     }
 
     n1 = vector[0];
